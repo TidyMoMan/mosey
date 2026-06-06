@@ -1,0 +1,10 @@
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/uninstall.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/cpp_joystick_uninstall.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/joystick_publisher.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/test.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/edit_cache.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/rebuild_cache.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/list_install_components.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/install.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/install/local.dir
+/home/mo/mosey/build/cpp_joystick/CMakeFiles/install/strip.dir

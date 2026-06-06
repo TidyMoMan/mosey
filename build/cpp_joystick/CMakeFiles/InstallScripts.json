@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/mo/mosey/build/cpp_joystick/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
