@@ -1,5 +1,0 @@
-source;share/cpp_joystick/local_setup.bash
-source;share/cpp_joystick/local_setup.dsv
-source;share/cpp_joystick/local_setup.fish
-source;share/cpp_joystick/local_setup.sh
-source;share/cpp_joystick/local_setup.zsh
