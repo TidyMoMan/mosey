@@ -1,0 +1,2 @@
+Invoking command in '/home/mo/mosey/src/talon_controller/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake /home/mo/mosey/src/talon_controller -DCMAKE_INSTALL_PREFIX=/home/mo/mosey/src/talon_controller/install/talon_controller
+Invoked command in '/home/mo/mosey/src/talon_controller/build/talon_controller' returned '1': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake /home/mo/mosey/src/talon_controller -DCMAKE_INSTALL_PREFIX=/home/mo/mosey/src/talon_controller/install/talon_controller

@@ -1,0 +1,3 @@
+/home/mo/mosey/src/talon_controller/src/build/CMakeFiles/talon_controller.dir
+/home/mo/mosey/src/talon_controller/src/build/CMakeFiles/edit_cache.dir
+/home/mo/mosey/src/talon_controller/src/build/CMakeFiles/rebuild_cache.dir

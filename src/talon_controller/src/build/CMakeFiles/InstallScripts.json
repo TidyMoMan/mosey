@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/mo/mosey/src/talon_controller/src/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

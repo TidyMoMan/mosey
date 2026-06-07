@@ -1,0 +1,5 @@
+source;share/talon_controller/local_setup.bash
+source;share/talon_controller/local_setup.dsv
+source;share/talon_controller/local_setup.fish
+source;share/talon_controller/local_setup.sh
+source;share/talon_controller/local_setup.zsh
