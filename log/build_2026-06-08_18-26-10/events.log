@@ -1,0 +1,285 @@
+[0.000000] (-) TimerEvent: {}
+[0.000603] (talon_controller) JobQueued: {'identifier': 'talon_controller', 'dependencies': OrderedDict()}
+[0.001702] (talon_controller) JobStarted: {'identifier': 'talon_controller'}
+[0.029446] (talon_controller) JobProgress: {'identifier': 'talon_controller', 'progress': 'cmake'}
+[0.030787] (talon_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/mo/mosey/src/talon_controller', '-DCMAKE_INSTALL_PREFIX=/home/mo/mosey/install/talon_controller'], 'cwd': '/home/mo/mosey/build/talon_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mo', 'SSH_CLIENT': '192.168.4.66 54744 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/home/mo', 'OLDPWD': '/home/mo', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'mo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '72', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mo/mosey/build/talon_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.4.66 54744 192.168.4.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical'}), 'shell': False}
+[0.099420] (-) TimerEvent: {}
+[0.200121] (-) TimerEvent: {}
+[0.247718] (talon_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 15.2.0\n'}
+[0.300315] (-) TimerEvent: {}
+[0.401026] (-) TimerEvent: {}
+[0.490112] (talon_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 15.2.0\n'}
+[0.501178] (-) TimerEvent: {}
+[0.514075] (talon_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601372] (-) TimerEvent: {}
+[0.701982] (-) TimerEvent: {}
+[0.778647] (talon_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.802139] (-) TimerEvent: {}
+[0.829650] (talon_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.830622] (talon_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.831982] (talon_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.872249] (talon_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.902400] (-) TimerEvent: {}
+[1.003241] (-) TimerEvent: {}
+[1.103972] (-) TimerEvent: {}
+[1.155950] (talon_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.204161] (-) TimerEvent: {}
+[1.207648] (talon_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.208488] (talon_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.210583] (talon_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.239263] (talon_controller) StdoutLine: {'line': b'-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)\n'}
+[1.304308] (-) TimerEvent: {}
+[1.404849] (-) TimerEvent: {}
+[1.505397] (-) TimerEvent: {}
+[1.605981] (-) TimerEvent: {}
+[1.706566] (-) TimerEvent: {}
+[1.807388] (-) TimerEvent: {}
+[1.907878] (-) TimerEvent: {}
+[2.008591] (-) TimerEvent: {}
+[2.080283] (talon_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.108742] (-) TimerEvent: {}
+[2.209454] (-) TimerEvent: {}
+[2.310108] (-) TimerEvent: {}
+[2.345782] (talon_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.348762] (talon_controller) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[2.352312] (talon_controller) StdoutLine: {'line': b'-- Found rclcpp: 32.0.0 (/opt/ros/lyrical/share/rclcpp/cmake)\n'}
+[2.410257] (-) TimerEvent: {}
+[2.434452] (talon_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)\n'}
+[2.456020] (talon_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 5.2.0 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)\n'}
+[2.495148] (talon_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.510416] (-) TimerEvent: {}
+[2.531703] (talon_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.610567] (-) TimerEvent: {}
+[2.711130] (-) TimerEvent: {}
+[2.721567] (talon_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.10.1 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)\n'}
+[2.728404] (talon_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.4.8 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.811296] (-) TimerEvent: {}
+[2.815479] (talon_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.911469] (-) TimerEvent: {}
+[3.011998] (-) TimerEvent: {}
+[3.020605] (talon_controller) StdoutLine: {'line': b'-- Found std_msgs: 5.9.2 (/opt/ros/lyrical/share/std_msgs/cmake)\n'}
+[3.058985] (talon_controller) StdoutLine: {'line': b'-- Phoenix libs dir: /home/mo/mosey/src/talon_controller/lib/arm64\n'}
+[3.059465] (talon_controller) StdoutLine: {'line': b'-- Found .so files: /home/mo/mosey/src/talon_controller/lib/arm64/libCTRE_Phoenix.so;/home/mo/mosey/src/talon_controller/lib/arm64/libCTRE_PhoenixCCI.so;/home/mo/mosey/src/talon_controller/lib/arm64/libCTRE_PhoenixTools.so\n'}
+[3.060388] (talon_controller) StdoutLine: {'line': b'-- Phoenix lib:       /home/mo/mosey/src/talon_controller/lib/arm64/libCTRE_Phoenix.so\n'}
+[3.060728] (talon_controller) StdoutLine: {'line': b'-- PhoenixCCI lib:    /home/mo/mosey/src/talon_controller/lib/arm64/libCTRE_PhoenixCCI.so\n'}
+[3.060955] (talon_controller) StdoutLine: {'line': b'-- PhoenixTools lib:  /home/mo/mosey/src/talon_controller/lib/arm64/libCTRE_PhoenixTools.so\n'}
+[3.064469] (talon_controller) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)\n'}
+[3.112135] (-) TimerEvent: {}
+[3.212735] (-) TimerEvent: {}
+[3.313226] (-) TimerEvent: {}
+[3.413923] (-) TimerEvent: {}
+[3.514615] (-) TimerEvent: {}
+[3.607482] (talon_controller) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.607981] (talon_controller) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/mo/mosey/src/talon_controller/include\n'}
+[3.608245] (talon_controller) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.614750] (-) TimerEvent: {}
+[3.625914] (talon_controller) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.626316] (talon_controller) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.659048] (talon_controller) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.676693] (talon_controller) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.714894] (-) TimerEvent: {}
+[3.802957] (talon_controller) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.803416] (talon_controller) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.815029] (-) TimerEvent: {}
+[3.820835] (talon_controller) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.825095] (talon_controller) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[3.861866] (talon_controller) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.915203] (-) TimerEvent: {}
+[3.941683] (talon_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/mo/mosey/build/talon_controller\n'}
+[3.963220] (talon_controller) CommandEnded: {'returncode': 0}
+[3.964491] (talon_controller) JobProgress: {'identifier': 'talon_controller', 'progress': 'build'}
+[3.966240] (talon_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mo/mosey/build/talon_controller', '--', '-j4', '-l4'], 'cwd': '/home/mo/mosey/build/talon_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mo', 'SSH_CLIENT': '192.168.4.66 54744 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/home/mo', 'OLDPWD': '/home/mo', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'mo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '72', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mo/mosey/build/talon_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.4.66 54744 192.168.4.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical'}), 'shell': False}
+[4.015427] (-) TimerEvent: {}
+[4.113744] (talon_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o\x1b[0m\n'}
+[4.115569] (-) TimerEvent: {}
+[4.216213] (-) TimerEvent: {}
+[4.316983] (-) TimerEvent: {}
+[4.417571] (-) TimerEvent: {}
+[4.518253] (-) TimerEvent: {}
+[4.618881] (-) TimerEvent: {}
+[4.719679] (-) TimerEvent: {}
+[4.820292] (-) TimerEvent: {}
+[4.920919] (-) TimerEvent: {}
+[5.021493] (-) TimerEvent: {}
+[5.122087] (-) TimerEvent: {}
+[5.222719] (-) TimerEvent: {}
+[5.323270] (-) TimerEvent: {}
+[5.423857] (-) TimerEvent: {}
+[5.524438] (-) TimerEvent: {}
+[5.624978] (-) TimerEvent: {}
+[5.725566] (-) TimerEvent: {}
+[5.826145] (-) TimerEvent: {}
+[5.926780] (-) TimerEvent: {}
+[6.027364] (-) TimerEvent: {}
+[6.128062] (-) TimerEvent: {}
+[6.228794] (-) TimerEvent: {}
+[6.282627] (talon_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35\x1b[m\x1b[K,\n'}
+[6.283220] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28\x1b[m\x1b[K,\n'}
+[6.283662] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31\x1b[m\x1b[K,\n'}
+[6.283902] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:2\x1b[m\x1b[K:\n'}
+[6.284103] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ctre::phoenix::sensors::PigeonIMU_StickyFaults::\x1b[01;32m\x1b[KUpdate\x1b[m\x1b[K(uint64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.284310] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbits\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.284602] (talon_controller) StderrLine: {'line': b'   32 |         void Update(\x1b[01;35m\x1b[Kuint64_t bits\x1b[m\x1b[K) {\n'}
+[6.284800] (talon_controller) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[6.310340] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:\x1b[m\x1b[K At global scope:\n'}
+[6.310979] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual void ctre::phoenix::sensors::BasePigeon::\x1b[01;32m\x1b[KGetAllConfigs\x1b[m\x1b[K(ctre::phoenix::sensors::BasePigeonConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99 was hidden [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual\x07-Woverloaded-virtual=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.311283] (talon_controller) StderrLine: {'line': b'  475 |     virtual void \x1b[01;35m\x1b[KGetAllConfigs\x1b[m\x1b[K(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[6.311653] (talon_controller) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.311888] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  by \xe2\x80\x98\x1b[01m\x1b[Kvirtual void ctre::phoenix::sensors::PigeonIMU::\x1b[01;32m\x1b[KGetAllConfigs\x1b[m\x1b[K(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.312124] (talon_controller) StderrLine: {'line': b'  524 |     virtual void \x1b[01;36m\x1b[KGetAllConfigs\x1b[m\x1b[K(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[6.312366] (talon_controller) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.312632] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::\x1b[01;32m\x1b[KConfigAllSettings\x1b[m\x1b[K(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99 was hidden [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual\x07-Woverloaded-virtual=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.312867] (talon_controller) StderrLine: {'line': b'  465 |     virtual ctre::phoenix::ErrorCode \x1b[01;35m\x1b[KConfigAllSettings\x1b[m\x1b[K(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[6.313079] (talon_controller) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.313288] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  by \xe2\x80\x98\x1b[01m\x1b[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::\x1b[01;32m\x1b[KConfigAllSettings\x1b[m\x1b[K(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.313677] (talon_controller) StderrLine: {'line': b'  514 |     virtual ctre::phoenix::ErrorCode \x1b[01;36m\x1b[KConfigAllSettings\x1b[m\x1b[K(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[6.313918] (talon_controller) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.328948] (-) TimerEvent: {}
+[6.429519] (-) TimerEvent: {}
+[6.530084] (-) TimerEvent: {}
+[6.630736] (-) TimerEvent: {}
+[6.731427] (-) TimerEvent: {}
+[6.831976] (-) TimerEvent: {}
+[6.932551] (-) TimerEvent: {}
+[7.033110] (-) TimerEvent: {}
+[7.133739] (-) TimerEvent: {}
+[7.234307] (-) TimerEvent: {}
+[7.334898] (-) TimerEvent: {}
+[7.435453] (-) TimerEvent: {}
+[7.536012] (-) TimerEvent: {}
+[7.636609] (-) TimerEvent: {}
+[7.737172] (-) TimerEvent: {}
+[7.837778] (-) TimerEvent: {}
+[7.938377] (-) TimerEvent: {}
+[8.038937] (-) TimerEvent: {}
+[8.139563] (-) TimerEvent: {}
+[8.240155] (-) TimerEvent: {}
+[8.340789] (-) TimerEvent: {}
+[8.441397] (-) TimerEvent: {}
+[8.541949] (-) TimerEvent: {}
+[8.642573] (-) TimerEvent: {}
+[8.743135] (-) TimerEvent: {}
+[8.843782] (-) TimerEvent: {}
+[8.944348] (-) TimerEvent: {}
+[9.044947] (-) TimerEvent: {}
+[9.145554] (-) TimerEvent: {}
+[9.246122] (-) TimerEvent: {}
+[9.346769] (-) TimerEvent: {}
+[9.447369] (-) TimerEvent: {}
+[9.547941] (-) TimerEvent: {}
+[9.648527] (-) TimerEvent: {}
+[9.749138] (-) TimerEvent: {}
+[9.849970] (-) TimerEvent: {}
+[9.950640] (-) TimerEvent: {}
+[10.051211] (-) TimerEvent: {}
+[10.151858] (-) TimerEvent: {}
+[10.252444] (-) TimerEvent: {}
+[10.353026] (-) TimerEvent: {}
+[10.453664] (-) TimerEvent: {}
+[10.554268] (-) TimerEvent: {}
+[10.654900] (-) TimerEvent: {}
+[10.755505] (-) TimerEvent: {}
+[10.856106] (-) TimerEvent: {}
+[10.956688] (-) TimerEvent: {}
+[11.057257] (-) TimerEvent: {}
+[11.157909] (-) TimerEvent: {}
+[11.258472] (-) TimerEvent: {}
+[11.359064] (-) TimerEvent: {}
+[11.459661] (-) TimerEvent: {}
+[11.560270] (-) TimerEvent: {}
+[11.660876] (-) TimerEvent: {}
+[11.761437] (-) TimerEvent: {}
+[11.862025] (-) TimerEvent: {}
+[11.962674] (-) TimerEvent: {}
+[12.063268] (-) TimerEvent: {}
+[12.163908] (-) TimerEvent: {}
+[12.264471] (-) TimerEvent: {}
+[12.365045] (-) TimerEvent: {}
+[12.465642] (-) TimerEvent: {}
+[12.566211] (-) TimerEvent: {}
+[12.666802] (-) TimerEvent: {}
+[12.767380] (-) TimerEvent: {}
+[12.867954] (-) TimerEvent: {}
+[12.968580] (-) TimerEvent: {}
+[13.069151] (-) TimerEvent: {}
+[13.169778] (-) TimerEvent: {}
+[13.270389] (-) TimerEvent: {}
+[13.370957] (-) TimerEvent: {}
+[13.471543] (-) TimerEvent: {}
+[13.572101] (-) TimerEvent: {}
+[13.672705] (-) TimerEvent: {}
+[13.773274] (-) TimerEvent: {}
+[13.873877] (-) TimerEvent: {}
+[13.974447] (-) TimerEvent: {}
+[14.075048] (-) TimerEvent: {}
+[14.175684] (-) TimerEvent: {}
+[14.276249] (-) TimerEvent: {}
+[14.376877] (-) TimerEvent: {}
+[14.477473] (-) TimerEvent: {}
+[14.578028] (-) TimerEvent: {}
+[14.678622] (-) TimerEvent: {}
+[14.779184] (-) TimerEvent: {}
+[14.879826] (-) TimerEvent: {}
+[14.980445] (-) TimerEvent: {}
+[15.081058] (-) TimerEvent: {}
+[15.181747] (-) TimerEvent: {}
+[15.282443] (-) TimerEvent: {}
+[15.383010] (-) TimerEvent: {}
+[15.483647] (-) TimerEvent: {}
+[15.584252] (-) TimerEvent: {}
+[15.684828] (-) TimerEvent: {}
+[15.785434] (-) TimerEvent: {}
+[15.886031] (-) TimerEvent: {}
+[15.986654] (-) TimerEvent: {}
+[16.087220] (-) TimerEvent: {}
+[16.187818] (-) TimerEvent: {}
+[16.288405] (-) TimerEvent: {}
+[16.388967] (-) TimerEvent: {}
+[16.489550] (-) TimerEvent: {}
+[16.590105] (-) TimerEvent: {}
+[16.690694] (-) TimerEvent: {}
+[16.791259] (-) TimerEvent: {}
+[16.891844] (-) TimerEvent: {}
+[16.992424] (-) TimerEvent: {}
+[17.092986] (-) TimerEvent: {}
+[17.193594] (-) TimerEvent: {}
+[17.294132] (-) TimerEvent: {}
+[17.394748] (-) TimerEvent: {}
+[17.495309] (-) TimerEvent: {}
+[17.595960] (-) TimerEvent: {}
+[17.676936] (talon_controller) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking CXX executable talon_controller\x1b[0m\n'}
+[17.696104] (-) TimerEvent: {}
+[17.796857] (-) TimerEvent: {}
+[17.897540] (-) TimerEvent: {}
+[17.998265] (-) TimerEvent: {}
+[18.029118] (talon_controller) StdoutLine: {'line': b'[100%] Built target talon_controller\n'}
+[18.062084] (talon_controller) CommandEnded: {'returncode': 0}
+[18.064880] (talon_controller) JobProgress: {'identifier': 'talon_controller', 'progress': 'install'}
+[18.090934] (talon_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mo/mosey/build/talon_controller'], 'cwd': '/home/mo/mosey/build/talon_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mo', 'SSH_CLIENT': '192.168.4.66 54744 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/home/mo', 'OLDPWD': '/home/mo', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'mo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '72', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mo/mosey/build/talon_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.4.66 54744 192.168.4.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical'}), 'shell': False}
+[18.098452] (-) TimerEvent: {}
+[18.115170] (talon_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.115728] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller\n'}
+[18.117303] (talon_controller) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller" to ""\n'}
+[18.117788] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_Phoenix.so\n'}
+[18.119356] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixCCI.so\n'}
+[18.121248] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixTools.so\n'}
+[18.132423] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/package_run_dependencies/talon_controller\n'}
+[18.132961] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/parent_prefix_path/talon_controller\n'}
+[18.133683] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.sh\n'}
+[18.134128] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.dsv\n'}
+[18.134605] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.sh\n'}
+[18.135084] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.dsv\n'}
+[18.135574] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.bash\n'}
+[18.136072] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.fish\n'}
+[18.136556] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.sh\n'}
+[18.137037] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.zsh\n'}
+[18.137529] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.dsv\n'}
+[18.137990] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.dsv\n'}
+[18.138633] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/packages/talon_controller\n'}
+[18.139150] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig.cmake\n'}
+[18.139557] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig-version.cmake\n'}
+[18.140006] (talon_controller) StdoutLine: {'line': b'-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.xml\n'}
+[18.144339] (talon_controller) CommandEnded: {'returncode': 0}
+[18.199706] (-) TimerEvent: {}
+[18.216544] (talon_controller) JobEnded: {'identifier': 'talon_controller', 'rc': 0}
+[18.219950] (-) EventReactorShutdown: {}

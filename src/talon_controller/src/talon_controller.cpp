@@ -17,6 +17,18 @@ using namespace std::chrono_literals;
 using namespace ctre::phoenix::motorcontrol::can;
 using namespace ctre::phoenix::motorcontrol;
 
+class subscriber : public rclcpp::Node{
+  public: 
+  subscriber():Node("motor_listener"){
+    subscription_ = this->create_subscription<std_msgs::sensor_msgs::Joy>("joy", 10, std::bind(&subscriber::topic_callback, this, _1));
+  }
+
+  private:
+  void topic_callback(const std_msgs::sensor_msgs::Joy){
+    
+  }
+}
+
 int main() {
 	
 	//right hip front motor, right hip back motor, right hip angle motor, etc

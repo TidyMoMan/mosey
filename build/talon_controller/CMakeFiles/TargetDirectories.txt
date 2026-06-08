@@ -1,0 +1,10 @@
+/home/mo/mosey/build/talon_controller/CMakeFiles/uninstall.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/talon_controller_uninstall.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/talon_controller.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/test.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/edit_cache.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/rebuild_cache.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/list_install_components.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/install.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/install/local.dir
+/home/mo/mosey/build/talon_controller/CMakeFiles/install/strip.dir
