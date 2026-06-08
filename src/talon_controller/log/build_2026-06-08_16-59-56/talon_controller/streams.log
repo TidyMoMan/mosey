@@ -1,0 +1,54 @@
+[0.035s] Invoking command in '/home/mo/mosey/src/talon_controller/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4
+[0.184s] [ 50%] Building CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o
+[1.372s] In file included from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35,
+[1.372s]                  from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28,
+[1.372s]                  from /home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31,
+[1.372s]                  from /home/mo/mosey/src/talon_controller/src/talon_controller.cpp:2:
+[1.373s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h: In member function ‘void ctre::phoenix::sensors::PigeonIMU_StickyFaults::Update(uint64_t)’:
+[1.373s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30: warning: unused parameter ‘bits’ [-Wunused-parameter]
+[1.373s]    32 |         void Update(uint64_t bits) {
+[1.373s]       |                     ~~~~~~~~~^~~~
+[1.375s] In file included from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/platform/Platform.hpp:9,
+[1.376s]                  from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/cci/Platform_CCI.h:5,
+[1.376s]                  from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeonSimCollection.h:5,
+[1.376s]                  from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:36:
+[1.377s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h: At global scope:
+[1.377s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:833:31: error: defaulted ‘constexpr bool ctre::phoenix::operator==(StatusCode, StatusCode)’ only available with ‘-std=c++20’ or ‘-std=gnu++20’
+[1.377s]   833 |         constexpr friend bool operator==(StatusCode, StatusCode) = default;
+[1.378s]       |                               ^~~~~~~~
+[1.378s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:31: error: declaration of ‘operator<=’ as non-function
+[1.378s]   834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;
+[1.379s]       |                               ^~~~~~~~
+[1.379s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:39: error: expected ‘;’ at end of member declaration
+[1.379s]   834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;
+[1.379s]       |                                       ^~
+[1.380s]       |                                         ;
+[1.380s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:41: error: expected unqualified-id before ‘>’ token
+[1.380s]   834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;
+[1.381s]       |                                         ^
+[1.381s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:24: error: declaration of ‘operator<=’ as non-function
+[1.381s]   842 |         constexpr auto operator<=>(int other) const
+[1.382s]       |                        ^~~~~~~~
+[1.382s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:32: error: expected ‘;’ at end of member declaration
+[1.382s]   842 |         constexpr auto operator<=>(int other) const
+[1.382s]       |                                ^~
+[1.383s]       |                                  ;
+[1.383s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:34: error: expected unqualified-id before ‘>’ token
+[1.384s]   842 |         constexpr auto operator<=>(int other) const
+[1.384s]       |                                  ^
+[1.399s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18: warning: ‘virtual void ctre::phoenix::sensors::BasePigeon::GetAllConfigs(ctre::phoenix::sensors::BasePigeonConfiguration&, int)’ was hidden [-Woverloaded-virtual=]
+[1.399s]   475 |     virtual void GetAllConfigs(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+[1.400s]       |                  ^~~~~~~~~~~~~
+[1.400s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18: note:   by ‘virtual void ctre::phoenix::sensors::PigeonIMU::GetAllConfigs(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)’
+[1.400s]   524 |     virtual void GetAllConfigs(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+[1.401s]       |                  ^~~~~~~~~~~~~
+[1.401s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38: warning: ‘virtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::ConfigAllSettings(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)’ was hidden [-Woverloaded-virtual=]
+[1.401s]   465 |     virtual ctre::phoenix::ErrorCode ConfigAllSettings(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+[1.402s]       |                                      ^~~~~~~~~~~~~~~~~
+[1.402s] /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38: note:   by ‘virtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::ConfigAllSettings(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)’
+[1.402s]   514 |     virtual ctre::phoenix::ErrorCode ConfigAllSettings(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+[1.403s]       |                                      ^~~~~~~~~~~~~~~~~
+[1.800s] gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+[1.801s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+[1.801s] gmake: *** [Makefile:146: all] Error 2
+[1.807s] Invoked command in '/home/mo/mosey/src/talon_controller/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4

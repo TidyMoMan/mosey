@@ -6,7 +6,11 @@
 #include <memory>
 #include <string>
 
-#include "rclcpp/rclcpp.hpp";
+
+#include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/string.hpp"
+
+using namespace std::chrono_literals;
 
 #include "ctre/phoenix/unmanaged/Unmanaged.h" //needed for watchdog enable
 
@@ -29,7 +33,7 @@ int main() {
         	
 	ctre::phoenix::unmanaged::Unmanaged::FeedEnable(100); //allow control for another 100ms
 
-	R_F.Set(ControlMode::PercentOutput, 0.15);
+	R_F.Set(ControlMode::PercentOutput, -0.25);
             
         std::cout << "Voltage: " << R_F.GetMotorOutputVoltage() << "V" << " Current: " << R_F.GetStatorCurrent() << "A" << std::endl;
 

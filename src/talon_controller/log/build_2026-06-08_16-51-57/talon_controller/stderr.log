@@ -1,0 +1,14 @@
+[31mCMake Error at CMakeLists.txt:34 (set_target_properties):
+  set_target_properties Can not find target to add properties to: Phoenix
+
+[0m
+[31mCMake Error at CMakeLists.txt:37 (set_target_properties):
+  set_target_properties Can not find target to add properties to: PhoenixCCI
+
+[0m
+[31mCMake Error at CMakeLists.txt:40 (set_target_properties):
+  set_target_properties Can not find target to add properties to:
+  PhoenixTools
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

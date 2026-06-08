@@ -1,0 +1,9 @@
+[0.035s] Invoking command in '/home/mo/mosey/src/talon_controller/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4
+[0.109s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.858s] [31mCMake Error at CMakeLists.txt:18 (find_library):
+[0.858s]   Could not find Phoenix using the following names: libCTRE_Phoenix
+[0.858s] 
+[0.859s] [0m
+[0.859s] -- Configuring incomplete, errors occurred!
+[0.866s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.874s] Invoked command in '/home/mo/mosey/src/talon_controller/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4

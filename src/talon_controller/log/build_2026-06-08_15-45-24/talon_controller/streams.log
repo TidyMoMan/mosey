@@ -1,0 +1,13 @@
+[0.034s] Invoking command in '/home/mo/mosey/src/talon_controller/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4
+[0.111s] -- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.134s] -- Found Threads: TRUE
+[1.134s] [31mCMake Error at CMakeLists.txt:18 (target_link_libraries):
+[1.135s]   Cannot specify link libraries for target "talon_controller" which is not
+[1.135s]   built by this project.
+[1.135s] 
+[1.135s] [0m
+[1.136s] -- Configuring incomplete, errors occurred!
+[1.146s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[1.152s] Invoked command in '/home/mo/mosey/src/talon_controller/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4

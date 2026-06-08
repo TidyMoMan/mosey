@@ -1,0 +1,52 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+In file included from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:2[m[K:
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:[m[K In member function ‘[01m[Kvoid ctre::phoenix::sensors::PigeonIMU_StickyFaults::[01;32m[KUpdate[m[K(uint64_t)[m[K’:
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbits[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   32 |         void Update([01;35m[Kuint64_t bits[m[K) {
+      |                     [01;35m[K~~~~~~~~~^~~~[m[K
+In file included from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/platform/Platform.hpp:9[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/cci/Platform_CCI.h:5[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeonSimCollection.h:5[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:36[m[K:
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:[m[K At global scope:
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:833:31:[m[K [01;31m[Kerror: [m[Kdefaulted ‘[01m[Kconstexpr bool ctre::phoenix::[01;32m[Koperator==[m[K(StatusCode, StatusCode)[m[K’ only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’
+  833 |         constexpr friend bool [01;31m[Koperator[m[K==(StatusCode, StatusCode) = default;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:31:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator<=[m[K’ as non-function
+  834 |         constexpr friend auto [01;31m[Koperator[m[K<=>(StatusCode, StatusCode) = default;
+      |                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  834 |         constexpr friend auto operator[01;31m[K<=[m[K>(StatusCode, StatusCode) = default;
+      |                                       [01;31m[K^~[m[K
+      |                                         [32m[K;[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:41:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+  834 |         constexpr friend auto operator<=[01;31m[K>[m[K(StatusCode, StatusCode) = default;
+      |                                         [01;31m[K^[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:24:[m[K [01;31m[Kerror: [m[Kdeclaration of ‘[01m[Koperator<=[m[K’ as non-function
+  842 |         constexpr auto [01;31m[Koperator[m[K<=>(int other) const
+      |                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:32:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  842 |         constexpr auto operator[01;31m[K<=[m[K>(int other) const
+      |                                [01;31m[K^~[m[K
+      |                                  [32m[K;[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:34:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K>[m[K’ token
+  842 |         constexpr auto operator<=[01;31m[K>[m[K(int other) const
+      |                                  [01;31m[K^[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ctre::phoenix::sensors::BasePigeon::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+  475 |     virtual void [01;35m[KGetAllConfigs[m[K(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ctre::phoenix::sensors::PigeonIMU::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+  524 |     virtual void [01;36m[KGetAllConfigs[m[K(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+      |                  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+  465 |     virtual ctre::phoenix::ErrorCode [01;35m[KConfigAllSettings[m[K(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+      |                                      [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+  514 |     virtual ctre::phoenix::ErrorCode [01;36m[KConfigAllSettings[m[K(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

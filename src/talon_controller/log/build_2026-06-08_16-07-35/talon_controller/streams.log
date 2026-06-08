@@ -1,0 +1,18 @@
+[0.036s] Invoking command in '/home/mo/mosey/src/talon_controller/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4
+[0.093s] [31mCMake Error at CMakeLists.txt:1 (icmake_minimum_required):
+[0.093s]   Unknown CMake command "icmake_minimum_required".
+[0.094s] 
+[0.094s] [0m
+[0.094s] [31mCMake Error in CMakeLists.txt:
+[0.094s]   No cmake_minimum_required command is present.  A line of code such as
+[0.095s] 
+[0.095s]     cmake_minimum_required(VERSION 4.2)
+[0.095s] 
+[0.095s]   should be added at the top of the file.  The version specified may be lower
+[0.096s]   if you wish to support older CMake versions for this project.  For more
+[0.096s]   information run "cmake --help-policy CMP0000".
+[0.096s] 
+[0.096s] [0m
+[0.097s] -- Configuring incomplete, errors occurred!
+[0.098s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.104s] Invoked command in '/home/mo/mosey/src/talon_controller/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4

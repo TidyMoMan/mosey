@@ -1,0 +1,11 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+[31mCMake Error at CMakeLists.txt:18 (target_link_libraries):
+  Cannot specify link libraries for target "talon_controller" which is not
+  built by this project.
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

@@ -1,0 +1,7 @@
+-- Found ament_cmake: 2.8.7 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[31mCMake Error at CMakeLists.txt:20 (find_library):
+  Could not find Phoenix using the following names: libCTRE_Phoenix
+
+[0m
+-- Configuring incomplete, errors occurred!
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

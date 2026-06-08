@@ -1,0 +1,51 @@
+In file included from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35,
+                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28,
+                 from /home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31,
+                 from /home/mo/mosey/src/talon_controller/src/talon_controller.cpp:2:
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h: In member function ‘void ctre::phoenix::sensors::PigeonIMU_StickyFaults::Update(uint64_t)’:
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30: warning: unused parameter ‘bits’ [-Wunused-parameter]
+   32 |         void Update(uint64_t bits) {
+      |                     ~~~~~~~~~^~~~
+In file included from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/platform/Platform.hpp:9,
+                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/cci/Platform_CCI.h:5,
+                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeonSimCollection.h:5,
+                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:36:
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h: At global scope:
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:833:31: error: defaulted ‘constexpr bool ctre::phoenix::operator==(StatusCode, StatusCode)’ only available with ‘-std=c++20’ or ‘-std=gnu++20’
+  833 |         constexpr friend bool operator==(StatusCode, StatusCode) = default;
+      |                               ^~~~~~~~
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:31: error: declaration of ‘operator<=’ as non-function
+  834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;
+      |                               ^~~~~~~~
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:39: error: expected ‘;’ at end of member declaration
+  834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;
+      |                                       ^~
+      |                                         ;
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:41: error: expected unqualified-id before ‘>’ token
+  834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;
+      |                                         ^
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:24: error: declaration of ‘operator<=’ as non-function
+  842 |         constexpr auto operator<=>(int other) const
+      |                        ^~~~~~~~
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:32: error: expected ‘;’ at end of member declaration
+  842 |         constexpr auto operator<=>(int other) const
+      |                                ^~
+      |                                  ;
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:34: error: expected unqualified-id before ‘>’ token
+  842 |         constexpr auto operator<=>(int other) const
+      |                                  ^
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18: warning: ‘virtual void ctre::phoenix::sensors::BasePigeon::GetAllConfigs(ctre::phoenix::sensors::BasePigeonConfiguration&, int)’ was hidden [-Woverloaded-virtual=]
+  475 |     virtual void GetAllConfigs(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+      |                  ^~~~~~~~~~~~~
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18: note:   by ‘virtual void ctre::phoenix::sensors::PigeonIMU::GetAllConfigs(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)’
+  524 |     virtual void GetAllConfigs(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+      |                  ^~~~~~~~~~~~~
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38: warning: ‘virtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::ConfigAllSettings(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)’ was hidden [-Woverloaded-virtual=]
+  465 |     virtual ctre::phoenix::ErrorCode ConfigAllSettings(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+      |                                      ^~~~~~~~~~~~~~~~~
+/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38: note:   by ‘virtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::ConfigAllSettings(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)’
+  514 |     virtual ctre::phoenix::ErrorCode ConfigAllSettings(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+      |                                      ^~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

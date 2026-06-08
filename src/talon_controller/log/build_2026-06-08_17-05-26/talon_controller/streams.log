@@ -1,0 +1,13 @@
+[0.035s] Invoking command in '/home/mo/mosey/src/talon_controller/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4
+[0.189s] [ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+[0.571s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:9:29:[m[K [01;35m[Kwarning: [m[Kextra tokens at end of ‘[01m[K#include[m[K’ directive
+[0.572s]     9 | #include "rclcpp/rclcpp.hpp"[01;35m[K;[m[K
+[0.572s]       |                             [01;35m[K^[m[K
+[0.572s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.572s]     9 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K;
+[0.573s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.573s] compilation terminated.
+[0.579s] gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+[0.580s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+[0.580s] gmake: *** [Makefile:146: all] Error 2
+[0.586s] Invoked command in '/home/mo/mosey/src/talon_controller/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4

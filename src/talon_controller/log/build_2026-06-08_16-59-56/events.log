@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000277] (talon_controller) JobQueued: {'identifier': 'talon_controller', 'dependencies': OrderedDict()}
+[0.001409] (talon_controller) JobStarted: {'identifier': 'talon_controller'}
+[0.029630] (talon_controller) JobProgress: {'identifier': 'talon_controller', 'progress': 'cmake'}
+[0.031487] (talon_controller) JobProgress: {'identifier': 'talon_controller', 'progress': 'build'}
+[0.033338] (talon_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mo/mosey/src/talon_controller/build/talon_controller', '--', '-j4', '-l4'], 'cwd': '/home/mo/mosey/src/talon_controller/build/talon_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mo', 'SSH_CLIENT': '192.168.4.166 22921 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/home/mo', 'OLDPWD': '/home/mo/mosey/src/talon_controller/lib', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'mo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mo/mosey/src/talon_controller/build/talon_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.4.166 22921 192.168.4.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical'}), 'shell': False}
+[0.099432] (-) TimerEvent: {}
+[0.185846] (talon_controller) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o\n'}
+[0.199605] (-) TimerEvent: {}
+[0.300015] (-) TimerEvent: {}
+[0.400372] (-) TimerEvent: {}
+[0.500695] (-) TimerEvent: {}
+[0.601069] (-) TimerEvent: {}
+[0.701416] (-) TimerEvent: {}
+[0.801756] (-) TimerEvent: {}
+[0.902152] (-) TimerEvent: {}
+[1.002548] (-) TimerEvent: {}
+[1.102895] (-) TimerEvent: {}
+[1.203228] (-) TimerEvent: {}
+[1.303571] (-) TimerEvent: {}
+[1.373165] (talon_controller) StderrLine: {'line': b'In file included from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35,\n'}
+[1.373687] (talon_controller) StderrLine: {'line': b'                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28,\n'}
+[1.374031] (talon_controller) StderrLine: {'line': b'                 from /home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31,\n'}
+[1.374288] (talon_controller) StderrLine: {'line': b'                 from /home/mo/mosey/src/talon_controller/src/talon_controller.cpp:2:\n'}
+[1.374508] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h: In member function \xe2\x80\x98void ctre::phoenix::sensors::PigeonIMU_StickyFaults::Update(uint64_t)\xe2\x80\x99:\n'}
+[1.374731] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30: warning: unused parameter \xe2\x80\x98bits\xe2\x80\x99 [-Wunused-parameter]\n'}
+[1.375021] (talon_controller) StderrLine: {'line': b'   32 |         void Update(uint64_t bits) {\n'}
+[1.375264] (talon_controller) StderrLine: {'line': b'      |                     ~~~~~~~~~^~~~\n'}
+[1.377170] (talon_controller) StderrLine: {'line': b'In file included from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/platform/Platform.hpp:9,\n'}
+[1.377610] (talon_controller) StderrLine: {'line': b'                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/cci/Platform_CCI.h:5,\n'}
+[1.377952] (talon_controller) StderrLine: {'line': b'                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeonSimCollection.h:5,\n'}
+[1.378259] (talon_controller) StderrLine: {'line': b'                 from /home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:36:\n'}
+[1.378510] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h: At global scope:\n'}
+[1.378733] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:833:31: error: defaulted \xe2\x80\x98constexpr bool ctre::phoenix::operator==(StatusCode, StatusCode)\xe2\x80\x99 only available with \xe2\x80\x98-std=c++20\xe2\x80\x99 or \xe2\x80\x98-std=gnu++20\xe2\x80\x99\n'}
+[1.379034] (talon_controller) StderrLine: {'line': b'  833 |         constexpr friend bool operator==(StatusCode, StatusCode) = default;\n'}
+[1.379335] (talon_controller) StderrLine: {'line': b'      |                               ^~~~~~~~\n'}
+[1.379648] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:31: error: declaration of \xe2\x80\x98operator<=\xe2\x80\x99 as non-function\n'}
+[1.379992] (talon_controller) StderrLine: {'line': b'  834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;\n'}
+[1.380323] (talon_controller) StderrLine: {'line': b'      |                               ^~~~~~~~\n'}
+[1.380615] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:39: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[1.380945] (talon_controller) StderrLine: {'line': b'  834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;\n'}
+[1.381271] (talon_controller) StderrLine: {'line': b'      |                                       ^~\n'}
+[1.381536] (talon_controller) StderrLine: {'line': b'      |                                         ;\n'}
+[1.381788] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:834:41: error: expected unqualified-id before \xe2\x80\x98>\xe2\x80\x99 token\n'}
+[1.382138] (talon_controller) StderrLine: {'line': b'  834 |         constexpr friend auto operator<=>(StatusCode, StatusCode) = default;\n'}
+[1.382458] (talon_controller) StderrLine: {'line': b'      |                                         ^\n'}
+[1.382702] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:24: error: declaration of \xe2\x80\x98operator<=\xe2\x80\x99 as non-function\n'}
+[1.383096] (talon_controller) StderrLine: {'line': b'  842 |         constexpr auto operator<=>(int other) const\n'}
+[1.383400] (talon_controller) StderrLine: {'line': b'      |                        ^~~~~~~~\n'}
+[1.383650] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:32: error: expected \xe2\x80\x98;\xe2\x80\x99 at end of member declaration\n'}
+[1.383955] (talon_controller) StderrLine: {'line': b'  842 |         constexpr auto operator<=>(int other) const\n'}
+[1.384259] (talon_controller) StderrLine: {'line': b'      |                                ^~\n'}
+[1.384573] (talon_controller) StderrLine: {'line': b'      |                                  ;\n'}
+[1.385008] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/StatusCodes.h:842:34: error: expected unqualified-id before \xe2\x80\x98>\xe2\x80\x99 token\n'}
+[1.385378] (talon_controller) StderrLine: {'line': b'  842 |         constexpr auto operator<=>(int other) const\n'}
+[1.385678] (talon_controller) StderrLine: {'line': b'      |                                  ^\n'}
+[1.400688] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18: warning: \xe2\x80\x98virtual void ctre::phoenix::sensors::BasePigeon::GetAllConfigs(ctre::phoenix::sensors::BasePigeonConfiguration&, int)\xe2\x80\x99 was hidden [-Woverloaded-virtual=]\n'}
+[1.401214] (talon_controller) StderrLine: {'line': b'  475 |     virtual void GetAllConfigs(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[1.401580] (talon_controller) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~~\n'}
+[1.401948] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18: note:   by \xe2\x80\x98virtual void ctre::phoenix::sensors::PigeonIMU::GetAllConfigs(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)\xe2\x80\x99\n'}
+[1.402310] (talon_controller) StderrLine: {'line': b'  524 |     virtual void GetAllConfigs(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[1.402562] (talon_controller) StderrLine: {'line': b'      |                  ^~~~~~~~~~~~~\n'}
+[1.402877] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38: warning: \xe2\x80\x98virtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::ConfigAllSettings(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)\xe2\x80\x99 was hidden [-Woverloaded-virtual=]\n'}
+[1.403239] (talon_controller) StderrLine: {'line': b'  465 |     virtual ctre::phoenix::ErrorCode ConfigAllSettings(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[1.403497] (talon_controller) StderrLine: {'line': b'      |                                      ^~~~~~~~~~~~~~~~~\n'}
+[1.403723] (-) TimerEvent: {}
+[1.403774] (talon_controller) StderrLine: {'line': b'/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38: note:   by \xe2\x80\x98virtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::ConfigAllSettings(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)\xe2\x80\x99\n'}
+[1.404109] (talon_controller) StderrLine: {'line': b'  514 |     virtual ctre::phoenix::ErrorCode ConfigAllSettings(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[1.404368] (talon_controller) StderrLine: {'line': b'      |                                      ^~~~~~~~~~~~~~~~~\n'}
+[1.503938] (-) TimerEvent: {}
+[1.604263] (-) TimerEvent: {}
+[1.704614] (-) TimerEvent: {}
+[1.801283] (talon_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1\n'}
+[1.802091] (talon_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2\n'}
+[1.802686] (talon_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.804812] (-) TimerEvent: {}
+[1.808333] (talon_controller) CommandEnded: {'returncode': 2}
+[1.842235] (talon_controller) JobEnded: {'identifier': 'talon_controller', 'rc': 2}
+[1.853913] (-) EventReactorShutdown: {}

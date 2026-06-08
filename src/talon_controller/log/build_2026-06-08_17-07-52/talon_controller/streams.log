@@ -1,0 +1,10 @@
+[0.037s] Invoking command in '/home/mo/mosey/src/talon_controller/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4
+[0.185s] [ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+[0.584s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.585s]    10 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.585s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.585s] compilation terminated.
+[0.592s] gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+[0.592s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+[0.593s] gmake: *** [Makefile:146: all] Error 2
+[0.600s] Invoked command in '/home/mo/mosey/src/talon_controller/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/src/talon_controller/build/talon_controller -- -j4 -l4
