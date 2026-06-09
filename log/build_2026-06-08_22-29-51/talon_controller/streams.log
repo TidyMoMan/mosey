@@ -1,0 +1,74 @@
+[0.035s] Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+[0.219s] [ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+[2.406s] In file included from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35[m[K,
+[2.407s]                  from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28[m[K,
+[2.407s]                  from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31[m[K,
+[2.407s]                  from [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:3[m[K:
+[2.407s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:[m[K In member function ‘[01m[Kvoid ctre::phoenix::sensors::PigeonIMU_StickyFaults::[01;32m[KUpdate[m[K(uint64_t)[m[K’:
+[2.408s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbits[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+[2.408s]    32 |         void Update([01;35m[Kuint64_t bits[m[K) {
+[2.408s]       |                     [01;35m[K~~~~~~~~~^~~~[m[K
+[2.434s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:[m[K At global scope:
+[2.434s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ctre::phoenix::sensors::BasePigeon::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+[2.435s]   475 |     virtual void [01;35m[KGetAllConfigs[m[K(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+[2.435s]       |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[2.435s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ctre::phoenix::sensors::PigeonIMU::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+[2.435s]   524 |     virtual void [01;36m[KGetAllConfigs[m[K(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+[2.436s]       |                  [01;36m[K^~~~~~~~~~~~~[m[K
+[2.436s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+[2.436s]   465 |     virtual ctre::phoenix::ErrorCode [01;35m[KConfigAllSettings[m[K(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+[2.437s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.437s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+[2.437s]   514 |     virtual ctre::phoenix::ErrorCode [01;36m[KConfigAllSettings[m[K(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+[2.437s]       |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[8.860s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:29:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Ksensor_msgs[m[K’?
+[8.860s]    29 |   rclcpp::Subscription<[01;31m[Ksensor_msg[m[K::msg::Joy>::SharedPtr subscription_;
+[8.861s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[8.861s]       |                        [32m[Ksensor_msgs[m[K
+[8.861s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:29:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[8.861s]    29 |   rclcpp::Subscription<sensor_msg::msg::Joy[01;31m[K>[m[K::SharedPtr subscription_;
+[8.861s]       |                                            [01;31m[K^[m[K
+[8.862s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:29:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[8.862s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:29:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[8.862s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:29:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[8.863s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:29:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[8.863s]    29 |   rclcpp::Subscription<sensor_msg::msg::Joy>::[01;31m[KSharedPtr[m[K subscription_;
+[8.863s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[8.863s]       |                                                        [32m[K;[m[K
+[8.869s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:29:57:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[8.869s]    29 |   rclcpp::Subscription<sensor_msg::msg::Joy>::SharedPtr [01;31m[Ksubscription_[m[K;
+[8.869s]       |                                                         [01;31m[K^~~~~~~~~~~~~[m[K
+[8.870s]       |                                                         [32m[Krmw_subscription_t[m[K
+[8.870s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:30:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[8.870s]    30 | }
+[8.871s]       |  [01;31m[K^[m[K
+[8.871s]       |  [32m[K;[m[K
+[8.873s] In file included from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/logging.hpp:22[m[K,
+[8.873s]                  from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[8.874s]                  from [01m[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:173[m[K,
+[8.874s]                  from [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:7[m[K:
+[8.874s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:[m[K In lambda function:
+[8.875s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:22:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K[01;32m[K%d[m[K[m[K’ expects argument of type ‘[01m[K[01;32m[Kint[m[K[m[K’, but argument 5 has type ‘[01m[K[01;34m[Kdouble[m[K[m[K’[m[K [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wformat-Wformat=]8;;[m[K]
+[8.875s]    22 |       RCLCPP_INFO(this->get_logger(), [01;32m[K"[m[K[01;32m[Kr[m[K[01;32m[Ke[m[K[01;32m[Ka[m[K[01;32m[Kd[m[K[01;32m[Ki[m[K[01;32m[Kn[m[K[01;32m[Kg[m[K[01;32m[K [m[K[01;32m[Ka[m[K[01;32m[K [m[K[01;32m[Kv[m[K[01;32m[Ka[m[K[01;32m[Kl[m[K[01;32m[Ku[m[K[01;32m[Ke[m[K[01;32m[K [m[K[01;32m[Ko[m[K[01;32m[Kf[m[K[01;32m[K [m[K[01;32m[K%[m[K[01;32m[Kd[m[K[01;32m[K"[m[K, msg.axes[0]);
+[8.875s]       |                                       [01;32m[K^[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K[01;32m[K~[m[K
+[8.876s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:22:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[8.876s]    22 |       RCLCPP_INFO(this->get_logger(), "reading a value of [01;32m[K%[m[K[01;32m[Kd[m[K", msg.axes[0]);
+[8.876s]       |                                                           [01;32m[K~[m[K[01;32m[K^[m[K
+[8.876s]       |                                                            [01;32m[K|[m[K
+[8.877s]       |                                                            [01;32m[Kint[m[K
+[8.877s]       |                                                           [32m[K%f[m[K
+[8.904s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:[m[K In constructor ‘[01m[KmotorSubscriber::[01;32m[KmotorSubscriber[m[K()[m[K’:
+[8.905s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:24:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription[m[K’ was not declared in this scope
+[8.905s]    24 |     [01;31m[Ksubscription[m[K = this->create_subscription<sensor_msgs::msg::Joy>(
+[8.905s]       |     [01;31m[K^~~~~~~~~~~~[m[K
+[8.992s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K()[m[K’:
+[8.992s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:34:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kargc[m[K’ was not declared in this scope
+[8.993s]    34 |   rclcpp::init([01;31m[Kargc[m[K, argv);
+[8.993s]       |                [01;31m[K^~~~[m[K
+[9.006s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:34:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kargv[m[K’ was not declared in this scope
+[9.007s]    34 |   rclcpp::init(argc, [01;31m[Kargv[m[K);
+[9.007s]       |                      [01;31m[K^~~~[m[K
+[17.176s] gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+[17.177s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+[17.177s] gmake: *** [Makefile:146: all] Error 2
+[17.183s] Invoked command in '/home/mo/mosey/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4

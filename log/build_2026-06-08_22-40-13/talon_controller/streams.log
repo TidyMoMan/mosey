@@ -1,0 +1,50 @@
+[0.036s] Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+[0.222s] [ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+[2.409s] In file included from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35[m[K,
+[2.410s]                  from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28[m[K,
+[2.410s]                  from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31[m[K,
+[2.411s]                  from [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:3[m[K:
+[2.411s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:[m[K In member function ‘[01m[Kvoid ctre::phoenix::sensors::PigeonIMU_StickyFaults::[01;32m[KUpdate[m[K(uint64_t)[m[K’:
+[2.411s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbits[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+[2.411s]    32 |         void Update([01;35m[Kuint64_t bits[m[K) {
+[2.412s]       |                     [01;35m[K~~~~~~~~~^~~~[m[K
+[2.437s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:[m[K At global scope:
+[2.438s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ctre::phoenix::sensors::BasePigeon::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+[2.438s]   475 |     virtual void [01;35m[KGetAllConfigs[m[K(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+[2.438s]       |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[2.438s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ctre::phoenix::sensors::PigeonIMU::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+[2.439s]   524 |     virtual void [01;36m[KGetAllConfigs[m[K(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+[2.439s]       |                  [01;36m[K^~~~~~~~~~~~~[m[K
+[2.439s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+[2.439s]   465 |     virtual ctre::phoenix::ErrorCode [01;35m[KConfigAllSettings[m[K(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+[2.440s]       |                                      [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[2.440s] [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+[2.440s]   514 |     virtual ctre::phoenix::ErrorCode [01;36m[KConfigAllSettings[m[K(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+[2.440s]       |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[29.089s] [100%] [1m[32mLinking CXX executable talon_controller[0m
+[30.497s] [100%] Built target talon_controller
+[30.530s] Invoked command in '/home/mo/mosey/build/talon_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+[30.560s] Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --install /home/mo/mosey/build/talon_controller
+[30.583s] -- Install configuration: ""
+[30.584s] -- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller
+[30.599s] -- Set non-toolchain portion of runtime path of "/home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller" to ""
+[30.599s] -- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_Phoenix.so
+[30.599s] -- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixCCI.so
+[30.600s] -- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixTools.so
+[30.600s] -- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/package_run_dependencies/talon_controller
+[30.601s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/parent_prefix_path/talon_controller
+[30.601s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.sh
+[30.601s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.dsv
+[30.601s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.sh
+[30.602s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.dsv
+[30.602s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.bash
+[30.602s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.fish
+[30.603s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.sh
+[30.603s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.zsh
+[30.603s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.dsv
+[30.604s] -- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.dsv
+[30.604s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/packages/talon_controller
+[30.604s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig.cmake
+[30.604s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig-version.cmake
+[30.605s] -- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.xml
+[30.608s] Invoked command in '/home/mo/mosey/build/talon_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --install /home/mo/mosey/build/talon_controller

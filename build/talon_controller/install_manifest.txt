@@ -2,6 +2,7 @@
 /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_Phoenix.so
 /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixCCI.so
 /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixTools.so
+/home/mo/mosey/install/talon_controller/share/talon_controller/environment/phoenix_libs.dsv
 /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/package_run_dependencies/talon_controller
 /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/parent_prefix_path/talon_controller
 /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.sh

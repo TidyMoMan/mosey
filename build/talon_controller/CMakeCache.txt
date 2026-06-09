@@ -259,7 +259,7 @@ PHOENIX_TOOLS_LIB:FILEPATH=/home/mo/mosey/src/talon_controller/lib/arm64/libCTRE
 SITE:STRING=mobot
 
 //Path to a library.
-_lib:FILEPATH=/opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+_lib:FILEPATH=/opt/ros/lyrical/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
 
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/lyrical/share/ament_cmake/cmake
@@ -366,6 +366,9 @@ fastdds_DIR:PATH=/opt/ros/lyrical/share/fastdds/cmake
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/lyrical/lib/foonathan_memory/cmake
 
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/lyrical/share/geometry_msgs/cmake
+
 //The directory containing a CMake configuration file for libstatistics_collector.
 libstatistics_collector_DIR:PATH=/opt/ros/lyrical/share/libstatistics_collector/cmake
 
@@ -464,6 +467,9 @@ rosidl_typesupport_introspection_c_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesu
 
 //The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp.
 rosidl_typesupport_introspection_cpp_DIR:PATH=/opt/ros/lyrical/share/rosidl_typesupport_introspection_cpp/cmake
+
+//The directory containing a CMake configuration file for sensor_msgs.
+sensor_msgs_DIR:PATH=/opt/ros/lyrical/share/sensor_msgs/cmake
 
 //The directory containing a CMake configuration file for service_msgs.
 service_msgs_DIR:PATH=/opt/ros/lyrical/share/service_msgs/cmake

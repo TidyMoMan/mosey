@@ -43,19 +43,9 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/talon_controller/talon_controller" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/talon_controller/talon_controller")
-    file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/talon_controller/talon_controller"
-         RPATH "")
-  endif()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/talon_controller" TYPE EXECUTABLE FILES "/home/mo/mosey/src/talon_controller/build/talon_controller/talon_controller")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/talon_controller/talon_controller" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/talon_controller/talon_controller")
-    file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/talon_controller/talon_controller"
-         OLD_RPATH "/home/mo/mosey/src/talon_controller/lib/arm64:/opt/ros/lyrical/lib:/opt/ros/lyrical/lib/aarch64-linux-gnu:"
-         NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/talon_controller/talon_controller")
     endif()

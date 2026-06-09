@@ -1,0 +1,4 @@
+Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+Invoked command in '/home/mo/mosey/build/talon_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/mo/mosey/build/talon_controller
+Invoked command in '/home/mo/mosey/build/talon_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/mo/mosey/build/talon_controller

@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+[01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/*.hpp: No such file or directory
+   11 | #include [01;31m[K"std_msgs/msg/*.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

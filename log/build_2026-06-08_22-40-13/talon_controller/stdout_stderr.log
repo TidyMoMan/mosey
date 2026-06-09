@@ -1,0 +1,46 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+In file included from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31[m[K,
+                 from [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:3[m[K:
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:[m[K In member function ‘[01m[Kvoid ctre::phoenix::sensors::PigeonIMU_StickyFaults::[01;32m[KUpdate[m[K(uint64_t)[m[K’:
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kbits[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter-Wunused-parameter]8;;[m[K]
+   32 |         void Update([01;35m[Kuint64_t bits[m[K) {
+      |                     [01;35m[K~~~~~~~~~^~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:[m[K At global scope:
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual void ctre::phoenix::sensors::BasePigeon::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+  475 |     virtual void [01;35m[KGetAllConfigs[m[K(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+      |                  [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual void ctre::phoenix::sensors::PigeonIMU::[01;32m[KGetAllConfigs[m[K(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+  524 |     virtual void [01;36m[KGetAllConfigs[m[K(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+      |                  [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)[m[K’ was hidden [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual-Woverloaded-virtual=]8;;[m[K]
+  465 |     virtual ctre::phoenix::ErrorCode [01;35m[KConfigAllSettings[m[K(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);
+      |                                      [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38:[m[K [01;36m[Knote: [m[K  by ‘[01m[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::[01;32m[KConfigAllSettings[m[K(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)[m[K’
+  514 |     virtual ctre::phoenix::ErrorCode [01;36m[KConfigAllSettings[m[K(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);
+      |                                      [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[100%] [1m[32mLinking CXX executable talon_controller[0m
+[100%] Built target talon_controller
+-- Install configuration: ""
+-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller
+-- Set non-toolchain portion of runtime path of "/home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller" to ""
+-- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_Phoenix.so
+-- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixCCI.so
+-- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixTools.so
+-- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/package_run_dependencies/talon_controller
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/parent_prefix_path/talon_controller
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.sh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.dsv
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.bash
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.fish
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.sh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.zsh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.dsv
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.dsv
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/packages/talon_controller
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig.cmake
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig-version.cmake
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.xml

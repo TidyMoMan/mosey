@@ -301,30 +301,6 @@ CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o: \
  /usr/include/c++/15/bits/this_thread_sleep.h \
  /usr/include/aarch64-linux-gnu/sys/time.h /usr/include/semaphore.h \
  /usr/include/aarch64-linux-gnu/bits/semaphore.h \
- /usr/include/c++/15/chrono /usr/include/c++/15/bits/shared_ptr.h \
- /usr/include/c++/15/bits/shared_ptr_base.h \
- /usr/include/c++/15/bits/allocated_ptr.h \
- /usr/include/c++/15/ext/concurrence.h /usr/include/c++/15/bits/align.h \
- /usr/include/c++/15/bits/chrono_io.h /usr/include/c++/15/iomanip \
- /usr/include/c++/15/locale \
- /usr/include/c++/15/bits/locale_facets_nonio.h \
- /usr/include/aarch64-linux-gnu/c++/15/bits/time_members.h \
- /usr/include/aarch64-linux-gnu/c++/15/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/15/bits/codecvt.h \
- /usr/include/c++/15/bits/locale_facets_nonio.tcc \
- /usr/include/c++/15/bits/locale_conv.h \
- /usr/include/c++/15/bits/quoted_string.h /usr/include/c++/15/format \
- /usr/include/c++/15/array /usr/include/c++/15/charconv \
- /usr/include/c++/15/optional \
- /usr/include/c++/15/bits/enable_special_members.h \
- /usr/include/c++/15/span /usr/include/c++/15/bits/monostate.h \
- /usr/include/c++/15/bits/formatfwd.h /usr/include/c++/15/bits/unicode.h \
- /usr/include/c++/15/bits/unicode-data.h /usr/include/c++/15/memory \
- /usr/include/c++/15/bits/stl_raw_storage_iter.h \
- /usr/include/c++/15/bits/shared_ptr_atomic.h \
- /usr/include/c++/15/backward/auto_ptr.h \
- /usr/include/c++/15/bits/ranges_uninitialized.h \
- /usr/include/c++/15/pstl/glue_memory_defs.h \
  /opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/15/csignal /usr/include/signal.h \
  /usr/include/aarch64-linux-gnu/bits/signum-generic.h \
@@ -356,9 +332,20 @@ CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h \
  /usr/include/aarch64-linux-gnu/bits/sigthread.h \
  /usr/include/aarch64-linux-gnu/bits/signal_ext.h \
+ /usr/include/c++/15/memory \
+ /usr/include/c++/15/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15/bits/align.h /usr/include/c++/15/bits/shared_ptr.h \
+ /usr/include/c++/15/bits/shared_ptr_base.h \
+ /usr/include/c++/15/bits/allocated_ptr.h \
+ /usr/include/c++/15/ext/concurrence.h \
+ /usr/include/c++/15/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15/backward/auto_ptr.h \
+ /usr/include/c++/15/bits/ranges_uninitialized.h \
+ /usr/include/c++/15/pstl/glue_memory_defs.h \
  /opt/ros/lyrical/include/rclcpp/rclcpp/copy_all_parameter_values.hpp \
  /opt/ros/lyrical/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
  /opt/ros/lyrical/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+ /usr/include/c++/15/array \
  /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
  /usr/include/c++/15/utility /usr/include/c++/15/bits/stl_relops.h \
  /opt/ros/lyrical/include/rosidl_buffer/rosidl_buffer/buffer.hpp \
@@ -374,7 +361,14 @@ CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o: \
  /opt/ros/lyrical/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
  /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_runtime_cpp/buffer__traits.hpp \
  /opt/ros/lyrical/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
- /usr/include/c++/15/codecvt \
+ /usr/include/c++/15/codecvt /usr/include/c++/15/bits/codecvt.h \
+ /usr/include/c++/15/iomanip /usr/include/c++/15/locale \
+ /usr/include/c++/15/bits/locale_facets_nonio.h \
+ /usr/include/aarch64-linux-gnu/c++/15/bits/time_members.h \
+ /usr/include/aarch64-linux-gnu/c++/15/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/15/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/15/bits/locale_conv.h \
+ /usr/include/c++/15/bits/quoted_string.h \
  /opt/ros/lyrical/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
  /opt/ros/lyrical/include/service_msgs/service_msgs/msg/detail/service_event_info__traits.hpp \
  /opt/ros/lyrical/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
@@ -519,6 +513,13 @@ CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o: \
  /usr/include/c++/15/bits/atomic_futex.h \
  /usr/include/c++/15/bits/std_function.h \
  /opt/ros/lyrical/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+ /usr/include/c++/15/chrono /usr/include/c++/15/bits/chrono_io.h \
+ /usr/include/c++/15/format /usr/include/c++/15/charconv \
+ /usr/include/c++/15/optional \
+ /usr/include/c++/15/bits/enable_special_members.h \
+ /usr/include/c++/15/span /usr/include/c++/15/bits/monostate.h \
+ /usr/include/c++/15/bits/formatfwd.h /usr/include/c++/15/bits/unicode.h \
+ /usr/include/c++/15/bits/unicode-data.h \
  /usr/include/c++/15/unordered_map \
  /usr/include/c++/15/bits/unordered_map.h \
  /usr/include/c++/15/bits/hashtable.h \
@@ -835,10 +836,12 @@ CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o: \
  /opt/ros/lyrical/include/rclcpp/rclcpp/parameter_service.hpp \
  /opt/ros/lyrical/include/rclcpp/rclcpp/parameter_descriptor_wrapper.hpp \
  /opt/ros/lyrical/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
- /opt/ros/lyrical/include/std_msgs/std_msgs/msg/string.hpp \
- /opt/ros/lyrical/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
- /opt/ros/lyrical/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
- /opt/ros/lyrical/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
- /opt/ros/lyrical/include/std_msgs/std_msgs/msg/detail/string__type_support.hpp \
- /opt/ros/lyrical/include/std_msgs/std_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/lyrical/include/sensor_msgs/sensor_msgs/msg/joy.hpp \
+ /opt/ros/lyrical/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp \
+ /opt/ros/lyrical/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+ /opt/ros/lyrical/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp \
+ /opt/ros/lyrical/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp \
+ /opt/ros/lyrical/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+ /opt/ros/lyrical/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.hpp \
+ /opt/ros/lyrical/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
  /home/mo/mosey/src/talon_controller/include/ctre/phoenix/unmanaged/Unmanaged.h

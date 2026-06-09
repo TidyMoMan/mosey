@@ -9,8 +9,9 @@ find_package(ament_cmake REQUIRED)
 find_package(Threads REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
-set(PHOENIX_LIBS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib/arm64)
+set(PHOENIX_LIBS_DIR ${CMAKE_CURRENT_SOURCE_DIR}/lib/arm64/)
 
 message(STATUS "Phoenix libs dir: ${PHOENIX_LIBS_DIR}")
 file(GLOB PHOENIX_FOUND_LIBS "${PHOENIX_LIBS_DIR}/*.so")
@@ -68,23 +69,36 @@ target_link_libraries(talon_controller
     PhoenixTools
     rclcpp::rclcpp
     std_msgs::std_msgs
+    sensor_msgs::sensor_msgs
     Threads::Threads)
 
+target_link_options(talon_controller PRIVATE
+    "-Wl,-rpath,$ORIGIN")
 # ── Copy libs to binary dir for local run/test ────────────────────────────────
 add_custom_command(TARGET talon_controller POST_BUILD
     COMMAND ${CMAKE_COMMAND} -E copy_directory
         ${PHOENIX_LIBS_DIR}
         $<TARGET_FILE_DIR:talon_controller>)
 
+set_target_properties(talon_controller PROPERTIES
+    INSTALL_RPATH "$ORIGIN"
+    BUILD_WITH_INSTALL_RPATH TRUE)
+
+set(CMAKE_INSTALL_RPATH_USE_LINK_PATH TRUE)
+set(CMAKE_SKIP_INSTALL_RPATH FALSE)
+set(CMAKE_BUILD_WITH_INSTALL_RPATH TRUE)
+set(CMAKE_INSTALL_RPATH "$ORIGIN")
+
 # ── Install ───────────────────────────────────────────────────────────────────
 install(TARGETS talon_controller
     DESTINATION lib/${PROJECT_NAME})
 
 install(FILES
-    ${PHOENIX_LIB}
-    ${PHOENIX_CCI_LIB}
-    ${PHOENIX_TOOLS_LIB}
+    ${PHOENIX_LIBS_DIR}/libCTRE_Phoenix.so
+    ${PHOENIX_LIBS_DIR}/libCTRE_PhoenixCCI.so
+    ${PHOENIX_LIBS_DIR}/libCTRE_PhoenixTools.so
     DESTINATION lib/${PROJECT_NAME})
+
 
 # ── Testing ───────────────────────────────────────────────────────────────────
 if(BUILD_TESTING)
@@ -93,5 +107,7 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+#basically pure evil linker machinations because the libraries depend on each other
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/env-hooks/phoenix_libs.dsv.in")
 
 ament_package()

@@ -1,0 +1,10 @@
+[0.034s] Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+[0.203s] [ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+[1.159s] [01m[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/*.hpp: No such file or directory
+[1.160s]    11 | #include [01;31m[K"std_msgs/msg/*.hpp"[m[K
+[1.160s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.160s] compilation terminated.
+[1.172s] gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1
+[1.173s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2
+[1.173s] gmake: *** [Makefile:146: all] Error 2
+[1.179s] Invoked command in '/home/mo/mosey/build/talon_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4

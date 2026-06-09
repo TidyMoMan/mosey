@@ -1,0 +1,26 @@
+[0.037s] Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+[0.208s] [100%] Built target talon_controller
+[0.241s] Invoked command in '/home/mo/mosey/build/talon_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --build /home/mo/mosey/build/talon_controller -- -j4 -l4
+[0.271s] Invoking command in '/home/mo/mosey/build/talon_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/mo/mosey/build/talon_controller
+[0.294s] -- Install configuration: ""
+[0.295s] -- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller
+[0.295s] -- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_Phoenix.so
+[0.295s] -- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixCCI.so
+[0.296s] -- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixTools.so
+[0.296s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/package_run_dependencies/talon_controller
+[0.296s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/parent_prefix_path/talon_controller
+[0.297s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.sh
+[0.297s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.dsv
+[0.297s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.sh
+[0.297s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.dsv
+[0.298s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.bash
+[0.298s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.fish
+[0.299s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.sh
+[0.299s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.zsh
+[0.299s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.dsv
+[0.300s] -- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.dsv
+[0.300s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/packages/talon_controller
+[0.300s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig.cmake
+[0.301s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig-version.cmake
+[0.301s] -- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/package.xml
+[0.303s] Invoked command in '/home/mo/mosey/build/talon_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical /usr/bin/cmake --install /home/mo/mosey/build/talon_controller

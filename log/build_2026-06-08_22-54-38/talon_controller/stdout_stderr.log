@@ -1,0 +1,22 @@
+[100%] Built target talon_controller
+-- Install configuration: ""
+-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller
+-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_Phoenix.so
+-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixCCI.so
+-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixTools.so
+-- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/package_run_dependencies/talon_controller
+-- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/parent_prefix_path/talon_controller
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.sh
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.sh
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.dsv
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.bash
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.fish
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.sh
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.zsh
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.dsv
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.dsv
+-- Installing: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/packages/talon_controller
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig.cmake
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig-version.cmake
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.xml

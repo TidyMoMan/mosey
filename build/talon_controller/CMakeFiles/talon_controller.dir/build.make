@@ -128,13 +128,6 @@ talon_controller: /opt/ros/lyrical/lib/librosgraph_msgs__rosidl_typesupport_c.so
 talon_controller: /opt/ros/lyrical/lib/librcl_interfaces__rosidl_typesupport_c.so
 talon_controller: /opt/ros/lyrical/lib/librosgraph_msgs__rosidl_generator_c.so
 talon_controller: /opt/ros/lyrical/lib/librcl_interfaces__rosidl_generator_c.so
-talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
-talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
-talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
-talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
-talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_cpp.so
-talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_c.so
-talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_generator_c.so
 talon_controller: /opt/ros/lyrical/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
 talon_controller: /opt/ros/lyrical/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 talon_controller: /opt/ros/lyrical/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
@@ -145,14 +138,27 @@ talon_controller: /opt/ros/lyrical/lib/libstatistics_msgs__rosidl_typesupport_c.
 talon_controller: /opt/ros/lyrical/lib/libstatistics_msgs__rosidl_generator_c.so
 talon_controller: /opt/ros/lyrical/lib/libtracetools.so
 talon_controller: /opt/ros/lyrical/lib/librcl_logging_interface.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_generator_py.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_typesupport_c.so
+talon_controller: /opt/ros/lyrical/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
+talon_controller: /opt/ros/lyrical/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_fastrtps_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_introspection_c.so
+talon_controller: /opt/ros/lyrical/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_introspection_cpp.so
 talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_cpp.so
 talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_generator_py.so
+talon_controller: /opt/ros/lyrical/lib/libgeometry_msgs__rosidl_typesupport_c.so
 talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_c.so
-talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_generator_c.so
 talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 talon_controller: /opt/ros/lyrical/lib/librosidl_typesupport_fastrtps_c.so
 talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
@@ -164,20 +170,29 @@ talon_controller: /opt/ros/lyrical/lib/librosidl_dynamic_typesupport.so
 talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 talon_controller: /opt/ros/lyrical/lib/librosidl_typesupport_introspection_cpp.so
 talon_controller: /opt/ros/lyrical/lib/librosidl_typesupport_introspection_c.so
+talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_generator_py.so
+talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_c.so
+talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libsensor_msgs__rosidl_generator_c.so
+talon_controller: /opt/ros/lyrical/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_typesupport_cpp.so
+talon_controller: /opt/ros/lyrical/lib/libgeometry_msgs__rosidl_generator_c.so
+talon_controller: /opt/ros/lyrical/lib/libstd_msgs__rosidl_generator_c.so
+talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_typesupport_cpp.so
 talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 talon_controller: /opt/ros/lyrical/lib/librosidl_typesupport_cpp.so
-talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_generator_py.so
-talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_generator_c.so
 talon_controller: /opt/ros/lyrical/lib/librosidl_typesupport_c.so
 talon_controller: /opt/ros/lyrical/lib/librcpputils.so
+talon_controller: /opt/ros/lyrical/lib/libservice_msgs__rosidl_generator_c.so
+talon_controller: /opt/ros/lyrical/lib/libbuiltin_interfaces__rosidl_generator_c.so
 talon_controller: /opt/ros/lyrical/lib/librosidl_runtime_c.so
 talon_controller: /opt/ros/lyrical/lib/librcutils.so
 talon_controller: /opt/ros/lyrical/lib/librosidl_buffer.so
 talon_controller: CMakeFiles/talon_controller.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mo/mosey/build/talon_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable talon_controller"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/talon_controller.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -E copy_directory /home/mo/mosey/src/talon_controller/lib/arm64 /home/mo/mosey/build/talon_controller
+	/usr/bin/cmake -E copy_directory /home/mo/mosey/src/talon_controller/lib/arm64/ /home/mo/mosey/build/talon_controller
 
 # Rule to build all files generated by this target.
 CMakeFiles/talon_controller.dir/build: talon_controller

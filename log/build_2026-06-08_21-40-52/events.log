@@ -1,0 +1,215 @@
+[0.000000] (-) TimerEvent: {}
+[0.000620] (talon_controller) JobQueued: {'identifier': 'talon_controller', 'dependencies': OrderedDict()}
+[0.001735] (talon_controller) JobStarted: {'identifier': 'talon_controller'}
+[0.030456] (talon_controller) JobProgress: {'identifier': 'talon_controller', 'progress': 'cmake'}
+[0.032239] (talon_controller) JobProgress: {'identifier': 'talon_controller', 'progress': 'build'}
+[0.033924] (talon_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mo/mosey/build/talon_controller', '--', '-j4', '-l4'], 'cwd': '/home/mo/mosey/build/talon_controller', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mo', 'SSH_CLIENT': '192.168.4.66 48076 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/lyrical/lib/aarch64-linux-gnu:/opt/ros/lyrical/lib', 'HOME': '/home/mo', 'OLDPWD': '/home/mo', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'lyrical', 'LOGNAME': 'mo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '75', 'PATH': '/opt/ros/lyrical/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/lyrical', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mo/mosey/build/talon_controller', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.4.66 48076 192.168.4.77 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/lyrical/lib/python3.14/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/lyrical'}), 'shell': False}
+[0.099415] (-) TimerEvent: {}
+[0.200149] (-) TimerEvent: {}
+[0.229821] (talon_controller) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o\x1b[0m\n'}
+[0.300338] (-) TimerEvent: {}
+[0.400887] (-) TimerEvent: {}
+[0.501438] (-) TimerEvent: {}
+[0.601984] (-) TimerEvent: {}
+[0.702575] (-) TimerEvent: {}
+[0.803137] (-) TimerEvent: {}
+[0.903758] (-) TimerEvent: {}
+[1.004346] (-) TimerEvent: {}
+[1.104932] (-) TimerEvent: {}
+[1.205627] (-) TimerEvent: {}
+[1.306220] (-) TimerEvent: {}
+[1.406949] (-) TimerEvent: {}
+[1.507587] (-) TimerEvent: {}
+[1.608176] (-) TimerEvent: {}
+[1.708802] (-) TimerEvent: {}
+[1.809372] (-) TimerEvent: {}
+[1.909954] (-) TimerEvent: {}
+[2.010556] (-) TimerEvent: {}
+[2.111130] (-) TimerEvent: {}
+[2.211760] (-) TimerEvent: {}
+[2.312343] (-) TimerEvent: {}
+[2.412902] (-) TimerEvent: {}
+[2.424394] (talon_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:35\x1b[m\x1b[K,\n'}
+[2.424976] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:28\x1b[m\x1b[K,\n'}
+[2.425328] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/Phoenix.h:31\x1b[m\x1b[K,\n'}
+[2.425627] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:2\x1b[m\x1b[K:\n'}
+[2.425838] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ctre::phoenix::sensors::PigeonIMU_StickyFaults::\x1b[01;32m\x1b[KUpdate\x1b[m\x1b[K(uint64_t)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.426047] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU_StickyFaults.h:32:30:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kbits\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wno-unused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.426280] (talon_controller) StderrLine: {'line': b'   32 |         void Update(\x1b[01;35m\x1b[Kuint64_t bits\x1b[m\x1b[K) {\n'}
+[2.426519] (talon_controller) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.452637] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:\x1b[m\x1b[K At global scope:\n'}
+[2.453218] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:475:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual void ctre::phoenix::sensors::BasePigeon::\x1b[01;32m\x1b[KGetAllConfigs\x1b[m\x1b[K(ctre::phoenix::sensors::BasePigeonConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99 was hidden [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual\x07-Woverloaded-virtual=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.453557] (talon_controller) StderrLine: {'line': b'  475 |     virtual void \x1b[01;35m\x1b[KGetAllConfigs\x1b[m\x1b[K(BasePigeonConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[2.453785] (talon_controller) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.454007] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:524:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  by \xe2\x80\x98\x1b[01m\x1b[Kvirtual void ctre::phoenix::sensors::PigeonIMU::\x1b[01;32m\x1b[KGetAllConfigs\x1b[m\x1b[K(ctre::phoenix::sensors::PigeonIMUConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.454235] (talon_controller) StderrLine: {'line': b'  524 |     virtual void \x1b[01;36m\x1b[KGetAllConfigs\x1b[m\x1b[K(PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[2.454537] (talon_controller) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.454755] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/BasePigeon.h:465:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::BasePigeon::\x1b[01;32m\x1b[KConfigAllSettings\x1b[m\x1b[K(const ctre::phoenix::sensors::BasePigeonConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99 was hidden [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/C_002b_002b-Dialect-Options.html#index-Wno-overloaded-virtual\x07-Woverloaded-virtual=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.455033] (talon_controller) StderrLine: {'line': b'  465 |     virtual ctre::phoenix::ErrorCode \x1b[01;35m\x1b[KConfigAllSettings\x1b[m\x1b[K(const BasePigeonConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[2.455282] (talon_controller) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.455554] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/include/ctre/phoenix/sensors/PigeonIMU.h:514:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  by \xe2\x80\x98\x1b[01m\x1b[Kvirtual ctre::phoenix::ErrorCode ctre::phoenix::sensors::PigeonIMU::\x1b[01;32m\x1b[KConfigAllSettings\x1b[m\x1b[K(const ctre::phoenix::sensors::PigeonIMUConfiguration&, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.455788] (talon_controller) StderrLine: {'line': b'  514 |     virtual ctre::phoenix::ErrorCode \x1b[01;36m\x1b[KConfigAllSettings\x1b[m\x1b[K(const PigeonIMUConfiguration &allConfigs, int timeoutMs = 50);\n'}
+[2.456002] (talon_controller) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.513094] (-) TimerEvent: {}
+[2.613710] (-) TimerEvent: {}
+[2.714299] (-) TimerEvent: {}
+[2.814857] (-) TimerEvent: {}
+[2.915467] (-) TimerEvent: {}
+[3.016014] (-) TimerEvent: {}
+[3.116600] (-) TimerEvent: {}
+[3.217182] (-) TimerEvent: {}
+[3.317918] (-) TimerEvent: {}
+[3.418535] (-) TimerEvent: {}
+[3.519092] (-) TimerEvent: {}
+[3.619693] (-) TimerEvent: {}
+[3.720313] (-) TimerEvent: {}
+[3.820926] (-) TimerEvent: {}
+[3.921525] (-) TimerEvent: {}
+[4.022089] (-) TimerEvent: {}
+[4.122765] (-) TimerEvent: {}
+[4.223363] (-) TimerEvent: {}
+[4.323915] (-) TimerEvent: {}
+[4.424520] (-) TimerEvent: {}
+[4.525086] (-) TimerEvent: {}
+[4.625690] (-) TimerEvent: {}
+[4.726327] (-) TimerEvent: {}
+[4.826893] (-) TimerEvent: {}
+[4.927508] (-) TimerEvent: {}
+[5.028063] (-) TimerEvent: {}
+[5.128663] (-) TimerEvent: {}
+[5.229292] (-) TimerEvent: {}
+[5.329859] (-) TimerEvent: {}
+[5.430452] (-) TimerEvent: {}
+[5.531058] (-) TimerEvent: {}
+[5.631642] (-) TimerEvent: {}
+[5.732201] (-) TimerEvent: {}
+[5.832814] (-) TimerEvent: {}
+[5.933464] (-) TimerEvent: {}
+[6.034013] (-) TimerEvent: {}
+[6.134587] (-) TimerEvent: {}
+[6.235159] (-) TimerEvent: {}
+[6.335726] (-) TimerEvent: {}
+[6.436308] (-) TimerEvent: {}
+[6.536894] (-) TimerEvent: {}
+[6.637491] (-) TimerEvent: {}
+[6.738054] (-) TimerEvent: {}
+[6.838663] (-) TimerEvent: {}
+[6.939224] (-) TimerEvent: {}
+[7.039800] (-) TimerEvent: {}
+[7.140371] (-) TimerEvent: {}
+[7.240911] (-) TimerEvent: {}
+[7.341525] (-) TimerEvent: {}
+[7.442090] (-) TimerEvent: {}
+[7.542699] (-) TimerEvent: {}
+[7.643308] (-) TimerEvent: {}
+[7.743857] (-) TimerEvent: {}
+[7.844396] (-) TimerEvent: {}
+[7.944967] (-) TimerEvent: {}
+[8.045563] (-) TimerEvent: {}
+[8.146106] (-) TimerEvent: {}
+[8.246691] (-) TimerEvent: {}
+[8.347240] (-) TimerEvent: {}
+[8.447820] (-) TimerEvent: {}
+[8.548448] (-) TimerEvent: {}
+[8.649050] (-) TimerEvent: {}
+[8.749662] (-) TimerEvent: {}
+[8.845634] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:27:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsgs\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.846483] (talon_controller) StderrLine: {'line': b'   27 |   void topic_callback(const sensor_msgs::\x1b[01;31m\x1b[Kmsgs\x1b[m\x1b[K::Joy message){\n'}
+[8.846866] (talon_controller) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.847129] (talon_controller) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[8.847420] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:27:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.847720] (talon_controller) StderrLine: {'line': b'   27 |   void topic_callback(const sensor_msgs::msgs::Joy \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K){\n'}
+[8.847973] (talon_controller) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.848219] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:27:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.848562] (talon_controller) StderrLine: {'line': b'   27 |   void topic_callback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msgs::Joy\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmessage\x1b[m\x1b[K){\n'}
+[8.848826] (talon_controller) StderrLine: {'line': b'      |                      \x1b[34m\x1b[K~\x1b[m\x1b[K                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[8.849033] (talon_controller) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[8.849233] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:27:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[8.849654] (talon_controller) StderrLine: {'line': b'   27 |   void topic_callback(const sensor_msgs::msgs::\x1b[01;31m\x1b[KJoy\x1b[m\x1b[K message){\n'}
+[8.849892] (-) TimerEvent: {}
+[8.850182] (talon_controller) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[8.850641] (talon_controller) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.853065] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:27:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[8.853549] (talon_controller) StderrLine: {'line': b'   27 |   void topic_callback(const sensor_msgs::msgs::Joy \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K){\n'}
+[8.853825] (talon_controller) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[8.854205] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:30:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[8.854570] (talon_controller) StderrLine: {'line': b'   30 | }\n'}
+[8.854934] (talon_controller) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.855324] (talon_controller) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[8.886015] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KjoySubscriber::\x1b[01;32m\x1b[KjoySubscriber\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.886502] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:23:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.886859] (talon_controller) StderrLine: {'line': b'   23 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::Joy>("joy", 10, std::bind(&subscriber::topic_callback, this, _1));\n'}
+[8.887113] (talon_controller) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.887415] (talon_controller) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_subscription_t\x1b[m\x1b[K\n'}
+[8.893440] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:23:92:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscriber\x1b[m\x1b[K\xe2\x80\x99 has not been declared; did you mean \xe2\x80\x98\x1b[01m\x1b[KjoySubscriber\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.894047] (talon_controller) StderrLine: {'line': b'   23 | this->create_subscription<sensor_msgs::msg::Joy>("joy", 10, std::bind(&\x1b[01;31m\x1b[Ksubscriber\x1b[m\x1b[K::topic_callback, this, _1));\n'}
+[8.894374] (talon_controller) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.894688] (talon_controller) StderrLine: {'line': b'      |                                                                        \x1b[32m\x1b[KjoySubscriber\x1b[m\x1b[K\n'}
+[8.895566] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:23:126:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.896094] (talon_controller) StderrLine: {'line': b'   23 | nsor_msgs::msg::Joy>("joy", 10, std::bind(&subscriber::topic_callback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[8.896406] (talon_controller) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.896658] (talon_controller) StderrLine: {'line': b'      |                                                                              \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[8.896917] (talon_controller) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors/executor_notify_waitable.hpp:18\x1b[m\x1b[K,\n'}
+[8.897149] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/executor.hpp:32\x1b[m\x1b[K,\n'}
+[8.897438] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.897685] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.897899] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/lyrical/include/rclcpp/rclcpp/rclcpp.hpp:174\x1b[m\x1b[K,\n'}
+[8.898115] (talon_controller) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mo/mosey/src/talon_controller/src/talon_controller.cpp:10\x1b[m\x1b[K:\n'}
+[8.898461] (talon_controller) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/15/functional:303:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[8.898790] (talon_controller) StderrLine: {'line': b'  303 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[8.899019] (talon_controller) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.950072] (-) TimerEvent: {}
+[9.050681] (-) TimerEvent: {}
+[9.151274] (-) TimerEvent: {}
+[9.251825] (-) TimerEvent: {}
+[9.352381] (-) TimerEvent: {}
+[9.452982] (-) TimerEvent: {}
+[9.553605] (-) TimerEvent: {}
+[9.654163] (-) TimerEvent: {}
+[9.754791] (-) TimerEvent: {}
+[9.855385] (-) TimerEvent: {}
+[9.955989] (-) TimerEvent: {}
+[10.056587] (-) TimerEvent: {}
+[10.157156] (-) TimerEvent: {}
+[10.257797] (-) TimerEvent: {}
+[10.358382] (-) TimerEvent: {}
+[10.458944] (-) TimerEvent: {}
+[10.559575] (-) TimerEvent: {}
+[10.660141] (-) TimerEvent: {}
+[10.760787] (-) TimerEvent: {}
+[10.861379] (-) TimerEvent: {}
+[10.961933] (-) TimerEvent: {}
+[11.062525] (-) TimerEvent: {}
+[11.163073] (-) TimerEvent: {}
+[11.263664] (-) TimerEvent: {}
+[11.364232] (-) TimerEvent: {}
+[11.464835] (-) TimerEvent: {}
+[11.565427] (-) TimerEvent: {}
+[11.666072] (-) TimerEvent: {}
+[11.766737] (-) TimerEvent: {}
+[11.867341] (-) TimerEvent: {}
+[11.967925] (-) TimerEvent: {}
+[12.068561] (-) TimerEvent: {}
+[12.169157] (-) TimerEvent: {}
+[12.269755] (-) TimerEvent: {}
+[12.370378] (-) TimerEvent: {}
+[12.470924] (-) TimerEvent: {}
+[12.571521] (-) TimerEvent: {}
+[12.672089] (-) TimerEvent: {}
+[12.772700] (-) TimerEvent: {}
+[12.873320] (-) TimerEvent: {}
+[12.973878] (-) TimerEvent: {}
+[13.074474] (-) TimerEvent: {}
+[13.175036] (-) TimerEvent: {}
+[13.275682] (-) TimerEvent: {}
+[13.376225] (-) TimerEvent: {}
+[13.476815] (-) TimerEvent: {}
+[13.577360] (-) TimerEvent: {}
+[13.677940] (-) TimerEvent: {}
+[13.778628] (-) TimerEvent: {}
+[13.798472] (talon_controller) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talon_controller.dir/build.make:79: CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o] Error 1\n'}
+[13.799079] (talon_controller) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/talon_controller.dir/all] Error 2\n'}
+[13.799589] (talon_controller) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.806829] (talon_controller) CommandEnded: {'returncode': 2}
+[13.851978] (talon_controller) JobEnded: {'identifier': 'talon_controller', 'rc': 2}
+[13.863699] (-) EventReactorShutdown: {}

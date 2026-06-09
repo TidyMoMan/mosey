@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/talon_controller.dir/src/talon_controller.cpp.o[0m
+[100%] [1m[32mLinking CXX executable talon_controller[0m
+[100%] Built target talon_controller
+-- Install configuration: ""
+-- Installing: /home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller
+-- Set non-toolchain portion of runtime path of "/home/mo/mosey/install/talon_controller/lib/talon_controller/talon_controller" to ""
+-- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_Phoenix.so
+-- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixCCI.so
+-- Up-to-date: /home/mo/mosey/install/talon_controller/lib/talon_controller/libCTRE_PhoenixTools.so
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/package_run_dependencies/talon_controller
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/parent_prefix_path/talon_controller
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.sh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/environment/path.dsv
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.bash
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.fish
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.sh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.zsh
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/local_setup.dsv
+-- Installing: /home/mo/mosey/install/talon_controller/share/talon_controller/package.dsv
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/ament_index/resource_index/packages/talon_controller
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig.cmake
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/cmake/talon_controllerConfig-version.cmake
+-- Up-to-date: /home/mo/mosey/install/talon_controller/share/talon_controller/package.xml
